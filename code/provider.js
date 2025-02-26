@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 async function scheduleHtmlProvider() {
   await loadTool('AIScheduleTools')
   try {

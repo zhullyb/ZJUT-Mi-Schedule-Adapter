@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 function scheduleHtmlParser(json_str) {
   courses_json = JSON.parse(json_str)
   const courseInfos = []
