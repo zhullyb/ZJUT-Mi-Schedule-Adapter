@@ -1,6 +1,5 @@
-/**
- * 时间配置函数，此为入口函数，不要改动函数名
- */
+// SPDX-License-Identifier: MIT
+
 async function scheduleTimer({
 } = {}) {
   return {
