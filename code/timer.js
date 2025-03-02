@@ -38,7 +38,7 @@ async function scheduleTimer({
       },
       {
         section: 6,
-        startTime: '13:40',
+        startTime: '13:30',
         endTime: '14:15',
       },
       {
