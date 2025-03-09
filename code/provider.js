@@ -38,15 +38,13 @@ async function scheduleHtmlProvider() {
       '3': '16',
     }[term]
 
-    const res = await fetch("http://www.gdjw.zjut.edu.cn/jwglxt/kbcx/xskbcx_cxXsgrkb.html?gnmkdm=N2151", {
+    const res = await fetch("/jwglxt/kbcx/xskbcx_cxXsgrkb.html?gnmkdm=N2151", {
       "headers": {
         "accept": "*/*",
         "accept-language": "zh-CN,zh;q=0.9",
         "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
         "x-requested-with": "XMLHttpRequest"
       },
-      "referrer": "http://www.gdjw.zjut.edu.cn/jwglxt/kbcx/xskbcx_cxXskbcxIndex.html?gnmkdm=N2151&layout=default",
-      "referrerPolicy": "strict-origin-when-cross-origin",
       "body": `xnm=${year}&xqm=${xqm}&kzlx=ck&xsdm=`,
       "method": "POST",
       "mode": "cors",
